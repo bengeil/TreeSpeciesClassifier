@@ -1,7 +1,5 @@
 
-Page
-1
-of 2
+
 CSC 487: Deep Learning
 Homework 1: Classification with Tabular Data
 In this homework you will develop di4erent models to classify tree species based on data
@@ -36,7 +34,7 @@ classifier. The N should have three layers and a hidden layer size of 100.
 4. Classifiers using PyTorch. Now implement the linear classifier and NN using
 PyTorch. You will need to implement the following steps:
 a. Create a TensorDataset and DataLoader for the train and test splits. Use a
-batch size of 32. The train loader should use random shu4ling but the test
+batch size of 32. The train loader should use random shuffling but the test
 loader should not.
 b. Create a function to calculate model accuracy, given the model and data
 loader. The function should iterate through the batches in the loader, add up
